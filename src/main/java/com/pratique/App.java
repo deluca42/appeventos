@@ -18,7 +18,7 @@ public class App
 {
 	public static void main( String[] args )
 	{  
-		// cria variavel opcao nula 
+		// cria variavel opcao nula  
 		String opcao = null; 
 		// estrutura de repeticao, equanto a opcao for diferente de 1 faca. 
 		 while (!("1".equals(opcao))) {
@@ -78,9 +78,6 @@ public class App
 
 		System.out.println("Quantidade de pessoas nesse evento : " + quantidaDePessoas + "");
 		quantidaDePessoas = console.nextInt();
-
-
-
 
 		meuEvento.setNome(name);
 		meuEvento.setEndereco(endereco);
