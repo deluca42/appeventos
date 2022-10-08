@@ -77,16 +77,16 @@ public class App
 					EstudanteController.guardarDadosEstudante(meuEstudante);
 			    break;
 			  case "3":
-
+					// TODO inserir estudante 
 				    break;
 			  case "4":
-				  System.out.println(" consultar Evento ");
+				  	// TODO excluir estudante 
 				    break;
 			  case "5":
-				  System.out.println(" consultar Evento ");
+				  	// TODO conmsultar todos estudante 
 				    break;	
 			  case "6":
-					
+				  	// TODO conmsultar evento 
 				    break;	
 			  case "7":
 					Evento meuEvento = new Evento();
@@ -94,10 +94,10 @@ public class App
 					EventoController.guardarDadosEvento(meuEvento);
 				    break;
 			  case "8":
-				  System.out.println(" consultar Evento ");
+				  	// TODO excluir evento 
 				    break;
 			  case "9":
-				  System.out.println(" consultar Evento ");
+				  	// TODO consultar todos eventos
 				    break;												
 			  default:
 			    // code block
