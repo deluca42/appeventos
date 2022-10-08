@@ -1,9 +1,6 @@
 package com.pratique.view;
 
 
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
 import java.util.Scanner;
 
 import com.pratique.controller.EstudanteController;
