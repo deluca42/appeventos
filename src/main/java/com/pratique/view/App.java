@@ -77,13 +77,28 @@ public class App
 					EstudanteController.guardarDadosEstudante(meuEstudante);
 			    break;
 			  case "3":
-					Evento meuEvento = new Evento();
-					EventoController.lerDadosEvento(console, meuEvento);
-					EventoController.guardarDadosEvento(meuEvento);
+
 				    break;
 			  case "4":
 				  System.out.println(" consultar Evento ");
 				    break;
+			  case "5":
+				  System.out.println(" consultar Evento ");
+				    break;	
+			  case "6":
+					
+				    break;	
+			  case "7":
+					Evento meuEvento = new Evento();
+					EventoController.lerDadosEvento(console, meuEvento);
+					EventoController.guardarDadosEvento(meuEvento);
+				    break;
+			  case "8":
+				  System.out.println(" consultar Evento ");
+				    break;
+			  case "9":
+				  System.out.println(" consultar Evento ");
+				    break;												
 			  default:
 			    // code block
 			}
