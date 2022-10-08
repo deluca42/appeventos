@@ -1,4 +1,4 @@
-package com.pratique.entidades;
+package com.pratique.model;
 
 import java.util.Date;
 
